@@ -1,0 +1,35 @@
+{
+    "cartes": [
+      ["voiture", "coiffeur", "bateau", "clavier", "chaussure"],
+      ["pomme", "table", "lampe", "montagne", "chaise"],
+      ["chien", "ordinateur", "fenêtre", "vélo", "crayon"],
+      ["porte", "chocolat", "sac", "avion", "livre"],
+      ["ballon", "téléphone", "montre", "ciel", "piano"],
+      ["mer", "oiseau", "cartable", "chemin", "guitare"],
+      ["soleil", "gâteau", "jardin", "parapluie", "bus"],
+      ["moto", "chemise", "fleur", "mur", "nuage"],
+      ["hôtel", "stylo", "papier", "lunettes", "couteau"],
+      ["chaîne", "étoile", "pont", "bouteille", "clé"],
+      ["fromage", "casquette", "bague", "valise", "miel"],
+      ["canapé", "réveil", "radio", "peinture", "piscine"],
+      ["train", "écharpe", "cloche", "ferme", "château"],
+      ["barbecue", "cheval", "poisson", "verre", "calendrier"],
+      ["plage", "casque", "camion", "escargot", "miroir"],
+      ["ciseaux", "boulangerie", "frigo", "chapeau", "abricot"],
+      ["dinosaure", "souris", "fourchette", "poupée", "avocat"],
+      ["courgette", "serviette", "zèbre", "bonbon", "banane"],
+      ["tabouret", "tapis", "volet", "pantalon", "épaule"],
+      ["escabeau", "requin", "vase", "chameau", "louche"],
+      ["canari", "raquette", "télévision", "colline", "train"],
+      ["grenouille", "ardoise", "livraison", "piano", "perruque"],
+      ["salade", "poêle", "cravate", "hérisson", "marmite"],
+      ["brouette", "flaque", "pièce", "magasin", "girafe"],
+      ["tableau", "marteau", "fourmi", "crocodile", "cerise"],
+      ["boîte", "navire", "loup", "framboise", "chaussette"],
+      ["coussin", "pigeon", "baleine", "glaçon", "clochette"],
+      ["singe", "saucisse", "lampe", "pétale", "brosse"],
+      ["pelle", "dragon", "stylo", "sifflet", "église"],
+      ["haricot", "feuille", "tortue", "parfum", "cadenas"]
+    ]
+  }
+  
