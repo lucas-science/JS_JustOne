@@ -16,19 +16,19 @@ const Jeux = async () => {
   const historique_carte_index = [];
   const listJoueur: string[] = await getListeJoeur();
   console.log(
-    "La partie commence. Et heureux de faire cette partie avec vous",
+    "La partie commence, heureux de faire cette partie avec vous",
     listJoueur
   );
 
   for (let i = 0; i < 13; i++) {
     await resetFile();
     const [firstJoueur, indexJoueur] = getJoueur(listJoueur);
-    console.log("La responsabilité reviens désormais à : ", firstJoueur);
+    console.log("La responsabilité revient désormais à : ", firstJoueur);
 
     const { carte, randomIndex } = GetRandomCarteExceptTheseIndex([]);
     historique_carte_index.push(randomIndex);
 
-    console.log(firstJoueur, "à tirer la carte.");
+    console.log(firstJoueur, "a tiré la carte.");
     const chiffreChoisi = await askNumberBetween1and5(firstJoueur);
 
     const wordChoisi = carte[chiffreChoisi];
@@ -40,7 +40,7 @@ const Jeux = async () => {
     }
     displayHashes();
     const listeSynonyme = await getSynonyms(wordChoisi);
-    console.log("Vous avez donc choisi les mot suivant : ", listeSynonyme);
+    console.log("Vous avez donc choisi les mots suivants : ", listeSynonyme);
     await wait(3);
 
     displayHashes();

@@ -56,7 +56,7 @@ export const askJoeurToChooseReponse = (
 
 export const getListeJoeur = async (): Promise<string[]> => {
   const response: string = await askQuestion(
-    "Entrez la liste de vos prénom séparé par un espace (5 joeurs):  "
+    "Entrez la liste de vos prénoms séparés par un espace (5 joeurs):  "
   );
   return response.split(" ");
 };
@@ -67,10 +67,14 @@ export const getJoueur = (listName: string[]): [string, number] => {
 };
 
 export const askJoeurToChooseWord = async (name: string, word: string) => {
-  console.log(name, "à toi de choisir un synonyme au mot : ", word);
+  console.log(
+    `%c${name}, à toi de choisir un synonyme au mot : ${word}`, 
+    "background: green; color: white; font-weight: bold; padding: 5px; font-size: 14px;"
+  );
   const response = await askSynonyme();
   await addSynonym(word, response);
 };
+
 
 export const afficheResultat = (
   response: string,
